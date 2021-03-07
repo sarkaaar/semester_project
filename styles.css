@@ -5,46 +5,33 @@ body {
 }
 
 .header {
-<<<<<<< HEAD
     overflow: auto;
-    background-color: #2e2c2c;
-=======
     position: fixed;
     top: 0;
     width: 100%;
     background-color: #313131;
->>>>>>> responsive
     padding: 10px 30px 3px 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-<<<<<<< HEAD
-=======
     border-bottom: 2px solid #121212;
->>>>>>> responsive
 }
 
 .header a {
     float: right;
     color: white;
     text-decoration: none;
-<<<<<<< HEAD
-=======
     margin-right: 40px;
->>>>>>> responsive
     padding: 10px 20px 10px 20px;
     font-size: 18px;
     line-height: 16px;
     border-radius: 5px;
 }
 
-<<<<<<< HEAD
 .header a:hover {
     background-color: grey;
 }
 
-=======
->>>>>>> responsive
 .sidenav {
     height: 100%;
     width: 0;
@@ -60,7 +47,6 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-<<<<<<< HEAD
     color: #818181;
     display: block;
     transition: 0.1s;
@@ -69,7 +55,6 @@ body {
 
 .sidenav a:hover {
     color: white;
-=======
     color: white;
     display: block;
     transition: 0.1s;
@@ -78,7 +63,6 @@ body {
 .sidenav a:hover,
 .header a:hover {
     color: #818181;
->>>>>>> responsive
 }
 
 .sidenav .closebtn {
@@ -88,17 +72,6 @@ body {
     font-size: 36px;
     margin-left: 50px;
 }
-
-<<<<<<< HEAD
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
-}
-=======
 @media screen and (max-width: 600px) {
     .header_1 {
         display: none;
@@ -153,4 +126,4 @@ body {
     width: 70%;
     margin-top: 30px;
 }
->>>>>>> responsive
+
