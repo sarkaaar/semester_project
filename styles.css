@@ -97,7 +97,7 @@ body {
     padding: 10px 30px 10px 30px;
 }
 
-.watermark {
+.watermark ,.links{
     font-family: 'Courier Prime', monospace;
     display: flex;
     justify-content: center;
@@ -125,5 +125,10 @@ body {
     margin: 15px;
     width: 70%;
     margin-top: 30px;
+}
+
+.ref{
+    width: 40px;
+    padding: 0px 20px 0px 20px;
 }
 
