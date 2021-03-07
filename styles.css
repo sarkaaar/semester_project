@@ -5,28 +5,46 @@ body {
 }
 
 .header {
+<<<<<<< HEAD
     overflow: auto;
     background-color: #2e2c2c;
+=======
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #313131;
+>>>>>>> responsive
     padding: 10px 30px 3px 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+<<<<<<< HEAD
+=======
+    border-bottom: 2px solid #121212;
+>>>>>>> responsive
 }
 
 .header a {
     float: right;
     color: white;
     text-decoration: none;
+<<<<<<< HEAD
+=======
+    margin-right: 40px;
+>>>>>>> responsive
     padding: 10px 20px 10px 20px;
     font-size: 18px;
     line-height: 16px;
     border-radius: 5px;
 }
 
+<<<<<<< HEAD
 .header a:hover {
     background-color: grey;
 }
 
+=======
+>>>>>>> responsive
 .sidenav {
     height: 100%;
     width: 0;
@@ -42,6 +60,7 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
+<<<<<<< HEAD
     color: #818181;
     display: block;
     transition: 0.1s;
@@ -50,6 +69,16 @@ body {
 
 .sidenav a:hover {
     color: white;
+=======
+    color: white;
+    display: block;
+    transition: 0.1s;
+}
+
+.sidenav a:hover,
+.header a:hover {
+    color: #818181;
+>>>>>>> responsive
 }
 
 .sidenav .closebtn {
@@ -60,6 +89,7 @@ body {
     margin-left: 50px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
@@ -68,3 +98,66 @@ body {
         font-size: 18px;
     }
 }
+=======
+@media screen and (max-width: 600px) {
+    .header_1 {
+        display: none;
+    }
+    .flexbox {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .flexbox_1 {
+        background-color: #313131;
+        height: 5in;
+        padding: 10px;
+        margin: 15px;
+        width: 500px;
+        margin-top: 30px;
+    }
+    .flexbox_2 {
+        background-color: #313131;
+        height: 5in;
+        padding: 10px;
+        margin: 15px;
+        width: 70%;
+        margin-top: 30px;
+    }
+}
+
+.footer {
+    background-color: #313131;
+    margin-bottom: 0px;
+    padding: 10px 30px 10px 30px;
+}
+
+.watermark {
+    font-family: 'Courier Prime', monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox {
+    display: flex;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.flexbox_1 {
+    background-color: #313131;
+    height: 5in;
+    padding: 10px;
+    margin: 15px;
+    width: 30%;
+    margin-top: 30px;
+}
+
+.flexbox_2 {
+    background-color: #313131;
+    height: 5in;
+    padding: 10px;
+    margin: 15px;
+    width: 70%;
+    margin-top: 30px;
+}
+>>>>>>> responsive
